@@ -3,23 +3,26 @@ import "./index.css"
 import Header from "./pages/Header"
 import About from "./pages/About"
 import Loading from "./pages/Loading"
+import { ParallaxProvider } from "react-scroll-parallax"
 
 function App() {
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 3700)
   }, [])
 
-  return loading ? (
-    <div className="flex justify-center items-center w-screen h-screen">
-      <Loading />
-    </div>
-  ) : (
-    <main className="flex flex-col">
-      <Header />
-      <About />
-    </main>
+  return (
+    <ParallaxProvider>
+      {loading ? (
+        <Loading />
+      ) : (
+        <main className="flex flex-col w-screen h-full box-border text-white bg-gradient-to-r from-darkgray via-tuna to-woodsmoke background-animate">
+          <Header />
+          <About />
+        </main>
+      )}
+    </ParallaxProvider>
   )
 }
 
