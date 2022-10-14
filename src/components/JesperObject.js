@@ -6,7 +6,7 @@ export default function JesperObject() {
   return (
     <div className="font-bold text-left w-screen h-[300px] px-8 md:w-1/2 md:text-2xl">
       <p>
-        <Typist avgTypingDelay={50}>
+        <Typist avgTypingDelay={25}>
           <Typist.Delay ms={2000} />
           <span className="text-devblue">const </span>
           devlepoer =
