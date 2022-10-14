@@ -16,6 +16,12 @@ module.exports = {
       fontFamily: {
         sans: ["Space Mono", "sans-serif"],
       },
+      keyframes: {
+        appear: { from: { opacity: 0 }, to: { opacity: 1 } },
+      },
+      animation: {
+        appearSlow: "appear 2s ease-in 1",
+      },
     },
   },
   plugins: [],

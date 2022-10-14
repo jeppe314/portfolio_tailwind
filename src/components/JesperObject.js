@@ -4,7 +4,7 @@ import "./Typist.css"
 
 export default function JesperObject() {
   return (
-    <div className="font-bold w-full h-full px-8 md:w-1/2 md:text-2xl">
+    <div className="font-bold text-left w-screen h-[300px] px-8 md:w-1/2 md:text-2xl">
       <p>
         <Typist avgTypingDelay={50}>
           <Typist.Delay ms={2000} />
