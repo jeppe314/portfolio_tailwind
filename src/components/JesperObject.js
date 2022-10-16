@@ -9,7 +9,7 @@ export default function JesperObject() {
     triggerOnce: true,
   })
   return (
-    <div className="flex h-full w-full p-8 text-[2vmax]">
+    <div className="flex p-8 text-[2vmax]">
       <p>
         <Typist avgTypingDelay={25}>
           <Typist.Delay ms={1000} />

@@ -7,10 +7,10 @@ import { Parallax } from "react-scroll-parallax"
 export default function About() {
   return (
     <section className="mt-[-15vh] h-screen flex flex-col md:flex-row justify-around leading-relaxed md:m-0">
-      {/* <div className="flex justify-center items-around md:w-1/2"> */}
-        <Avatar />
-      {/* </div> */}
-      <div className="flex w-[50vw]">
+      <div className="flex w-[50vw] h-50 justify-start items-center">
+        <Avatar className="h-full w-full" />
+      </div>
+      <div className="flex w-[50vw] h-50 justify-start items-center">
         <JesperObject className="h-full w-full" />
       </div>
     </section>
