@@ -21,9 +21,8 @@ function App() {
       ) : (
         <main className="flex flex-col overflow-hidden w-screen h-full box-border text-white bg-gradient-to-r from-darkgray via-tuna to-woodsmoke background-animate">
           <Header />
-
-            <About />
-
+          <About />
+          {/* <AboutText /> */}
           <Tech />
         </main>
       )}

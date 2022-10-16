@@ -6,14 +6,13 @@ import { Parallax } from "react-scroll-parallax"
 
 export default function About() {
   return (
-    <section className="mt-[-15vh] flex flex-wrap flex-col justify-around gap-8 leading-relaxed md:m-0">
-      <div className="md:flex md:flex-row md:h-full md:items-center">
-        <div className="flex justify-center items-around md:w-1/2">
-          <Avatar />
-        </div>
-        <JesperObject />
+    <section className="mt-[-15vh] h-screen flex flex-col md:flex-row justify-around leading-relaxed md:m-0">
+      {/* <div className="flex justify-center items-around md:w-1/2"> */}
+        <Avatar />
+      {/* </div> */}
+      <div className="flex w-[50vw]">
+        <JesperObject className="h-full w-full" />
       </div>
-      <AboutText />
     </section>
   )
 }
