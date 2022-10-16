@@ -11,14 +11,25 @@ export default function Header() {
         </Parallax>
         <Parallax>
           <div className="my-auto ">
-            <Parallax opacity={[3, 0]} translateY={[0, -50]} className="animate-appearSlow">
+            <Parallax
+              opacity={[1, 0]}
+              translateY={[0, 20]}
+              startScroll={0}
+              endScroll={500}
+              scale={[1, 1.5]}
+              className="animate-appearSlow"
+            >
               <Title text="Hi there," />
             </Parallax>
-            <Parallax opacity={[3, 0]} translateY={[0, 50]} className="animate-appearSlow">
+            <Parallax
+              startScroll={0}
+              endScroll={500}
+              opacity={[1, 0]}
+              translateY={[0, -10]}
+              scale={[1, 1.2]}
+              className="animate-appearSlow"
+            >
               <Title text="nice to see you here" />
-              {/* </Parallax>
-          <Parallax opacity={[4, 0]}>
-            <Title text="and enjoy" /> */}
             </Parallax>
           </div>
         </Parallax>
