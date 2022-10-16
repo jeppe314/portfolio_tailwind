@@ -7,7 +7,7 @@ import { Parallax } from "react-scroll-parallax"
 export default function About() {
   return (
     <section className="mt-[-15vh] flex flex-wrap flex-col justify-around gap-8 leading-relaxed md:m-0">
-      <div className="md:flex md:flex-row">
+      <div className="md:flex md:flex-row md:h-full md:items-center">
         <div className="flex justify-center items-around md:w-1/2">
           <Avatar />
         </div>

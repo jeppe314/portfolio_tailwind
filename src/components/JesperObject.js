@@ -8,11 +8,11 @@ export default function JesperObject() {
     threshold: 0.5,
     triggerOnce: true,
   })
-
+  //Fix alignment top
   return (
     <div
       ref={ref}
-      className="font-bold text-left w-screen h-[300px] px-8 md:w-1/2 md:h-full text-[2vmax]"
+      className="bg-black font-bold text-[2vmax] text-left w-full h-[50vh] px-8 md:w-1/2 md:h-full md:md:flex-col md:justify-start"
     >
       {inView && (
         <p>
