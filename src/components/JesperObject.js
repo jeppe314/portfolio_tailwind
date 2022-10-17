@@ -9,7 +9,7 @@ export default function JesperObject() {
     triggerOnce: true,
   })
   return (
-    <div className="flex items-start md:h-1/2 p-8 text-[2vmax]">
+    <div className="md:h-1/2 p-8 text-[2vmax]">
       <p>
         <Typist avgTypingDelay={50} className="h-full">
           <Typist.Delay ms={1000} />
@@ -36,10 +36,10 @@ export default function JesperObject() {
           <span className="ml-4">interests: </span>
           <br />
           <span className="text-devblue">[</span>
-          <span className="text-stringorange">"Programming"</span>,{" "}
+          <span className="text-stringorange">"WebDev"</span>,{" "}
           <span className="text-stringorange">"Sports"</span>,
           <span className="text-stringorange">"Reading"</span>,{" "}
-          <span className="text-stringorange">"Photography"</span>
+          <span className="text-stringorange">"Outdoors"</span>
           <span className="text-devblue">]</span>
           <br />
           <span className="text-bracketpink">&#125;</span>
