@@ -27,13 +27,12 @@ export default function App() {
   return (
     <div className="Circle">
       <div
-        className="relative w-[300px] h-[300px] m-[calc(100px / 2 + 0px)] bg-blue-600
+        className="relative w-[300px] h-[300px] m-[calc(100px / 2 + 0px)] animate-spinSlow
                   before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%]
-                  before:border-2 before:rounded-full before:border-green-400 m-[calc(100px / 2 + 0px)]"
+                  before:rounded-full m-[calc(100px / 2 + 0px)]"
         ref={graph}
       >
         {stackIcons}
-
       </div>
     </div>
   )
