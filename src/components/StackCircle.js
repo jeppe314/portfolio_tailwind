@@ -9,10 +9,10 @@ export default function StackCircle({}) {
 
   return (
     <div className="flex justify-center items-center h-screen w-screen bg-black">
-      <div className="w-64 h-64 relative animate-spinSlow rounded-full border-2 border-dashed ">
+      <div className="w-64 h-64 relative rounded-full border-2 border-dashed ">
         <StackItem
           url="/images/tech_stack/react.svg"
-          position="transform origin-left rotate-[270deg] translate-x-full translate-y-full"
+          position="transform origin-left rotate-[240deg] translate-x-[100%] translate-y-[100%]"
         />
 
         {/* <StackItem url="/images/tech_stack/react.svg" top="top-32" /> */}
