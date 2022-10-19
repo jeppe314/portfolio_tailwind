@@ -25,9 +25,10 @@ export default function App() {
   }, [])
 
   return (
-    <div className="Circle">
+    <div className="Circle flex justify-center items-center">
+      <h3 className="absolute">TECH <br/> STACK</h3>
       <div
-        className="relative w-[300px] h-[300px] m-[calc(100px / 2 + 0px)] animate-spinSlow
+        className="relative w-[50vw] h-[50vw] m-[calc(100px / 2 + 0px)] animate-spinSlow
                   before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%]
                   before:rounded-full m-[calc(100px / 2 + 0px)]"
         ref={graph}
