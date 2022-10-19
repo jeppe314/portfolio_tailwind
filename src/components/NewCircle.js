@@ -3,6 +3,9 @@ import StackItem from "./StackItem"
 import Stack from "../assets/Stack.json"
 
 export default function App() {
+  const stackIcons = Stack.data.map((stackItem) => (
+    <StackItem url={`${stackItem.url}`} name={stackItem.name} />
+  ))
   const graph = useRef(null)
 
   useEffect(() => {
@@ -29,12 +32,8 @@ export default function App() {
                   before:border-2 before:rounded-full before:border-green-400 m-[calc(100px / 2 + 0px)]"
         ref={graph}
       >
-        <StackItem />
-        <div className="absolute top-1/2 left-1/2 w-[100px] h-[100px] bg-blue-700 m-[calc(-100px/2)] rounded-full" />
-        <div className="absolute top-1/2 left-1/2 w-[100px] h-[100px] bg-blue-700 m-[calc(-100px/2)] rounded-full" />
-        <div className="absolute top-1/2 left-1/2 w-[100px] h-[100px] bg-blue-700 m-[calc(-100px/2)] rounded-full" />
-        <div className="absolute top-1/2 left-1/2 w-[100px] h-[100px] bg-blue-700 m-[calc(-100px/2)] rounded-full" />
-        <div className="absolute top-1/2 left-1/2 w-[100px] h-[100px] bg-blue-700 m-[calc(-100px/2)] rounded-full" />
+        {stackIcons}
+
       </div>
     </div>
   )
