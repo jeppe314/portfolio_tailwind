@@ -36,7 +36,7 @@ export default function ContactForm() {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="w-full flex flex-col gap-2 text-gray-300 rounded-md p-4 text-xl"
+        className="w-full flex flex-col gap-2 text-black rounded-md p-4 text-xl"
       >
         <input
           type="text"
@@ -44,7 +44,7 @@ export default function ContactForm() {
           defaultValue="NAME"
           onFocus={(e) => emptyDefault(e)}
           onBlur={(e) => resetInput(e)}
-          className="rounded-md h-12 bg-transparent border-2 border-white p-4 uppercase focus:border-devblue focus:outline-none focus:shadow-formInset"
+          className="rounded-md h-12 bg-transparent border-2 border-black p-4 uppercase focus:border-devblue focus:outline-none focus:shadow-formInset"
         />
         <input
           type="email"
@@ -52,7 +52,7 @@ export default function ContactForm() {
           defaultValue="E-MAIL"
           onFocus={(e) => emptyDefault(e)}
           onBlur={(e) => resetInput(e)}
-          className="rounded-md h-12 bg-transparent border-2 border-white p-4 uppercase focus:border-devblue focus:outline-none focus:shadow-formInset"
+          className="rounded-md h-12 bg-transparent border-2 border-black p-4 uppercase focus:border-devblue focus:outline-none focus:shadow-formInset"
         />
 
         <textarea
@@ -60,7 +60,7 @@ export default function ContactForm() {
           defaultValue="MESSAGE"
           onFocus={(e) => emptyDefault(e)}
           onBlur={(e) => resetInput(e)}
-          className="rounded-md h-12 bg-transparent border-2 border-white p-4 uppercase min-h-[350px] focus:border-devblue focus:outline-none focus:shadow-formInset"
+          className="rounded-md h-12 bg-transparent border-2 border-black p-4 uppercase min-h-[350px] focus:border-devblue focus:outline-none focus:shadow-formInset"
         />
         <input
           type="submit"
