@@ -31,7 +31,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="w-full h-full flex flex-col justify-center items-center">
+    <div className="w-full h-full flex flex-col justify-center items-center max-w-3xl">
       <h2 className="text-3xl">CONTACT</h2>
       <form
         ref={form}
