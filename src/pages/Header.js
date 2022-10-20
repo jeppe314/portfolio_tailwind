@@ -5,12 +5,12 @@ import { Parallax } from "react-scroll-parallax"
 export default function Header() {
   return (
     <section className="flex flex-col justify-between h-screen">
-      <div className="h-2/3 flex flex-col justify-between">
-        <Parallax opacity={[9, 0]} translateY={[0, 0]}>
-          <p className="text-center text-xl py-8">Jesper Lindqvist</p>
-        </Parallax>
+      <Parallax opacity={[9, 0]} translateY={[0, 0]}>
+        <p className="text-center text-xl py-8">Jesper Lindqvist</p>
+      </Parallax>
+      <div className="flex justify-center items-center h-full">
         <Parallax>
-          <div className="my-auto ">
+          <div className="my-auto mx-8">
             <Parallax
               opacity={[1, 0]}
               translateY={[0, 20]}
@@ -34,6 +34,7 @@ export default function Header() {
           </div>
         </Parallax>
       </div>
+      {/* </div> */}
     </section>
   )
 }

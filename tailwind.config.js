@@ -21,6 +21,8 @@ module.exports = {
       },
       animation: {
         appearSlow: "appear 2s ease-in 1",
+        spinSlow: "spin 15s linear infinite",
+        spinSlowReverse: "spin 15s linear infinite reverse",
       },
     },
   },

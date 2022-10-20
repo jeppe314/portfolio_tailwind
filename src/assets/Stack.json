@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "name": "React",
+      "url": "/images/tech_stack/react.svg"
+    },
+    {
+      "name": "Css",
+      "url": "/images/tech_stack/css-3.svg"
+    },
+    {
+      "name": "Html",
+      "url": "/images/tech_stack/html-5.svg"
+    },
+    {
+      "name": "Tailwind",
+      "url": "/images/tech_stack/tailwind.svg"
+    },
+    {
+      "name": "Git",
+      "url": "/images/tech_stack/git.svg"
+    },
+    {
+      "name": "Javascript",
+      "url": "/images/tech_stack/javascript.svg"
+    }
+  ]
+}

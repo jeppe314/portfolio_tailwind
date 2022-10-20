@@ -1,11 +1,10 @@
 import React from "react"
+import StackCircle from "../components/StackCircle"
 
 export default function Tech() {
   return (
-    <section className="flex justify-center items-center h-screen">
-      <div className="flex justify-center items-center border-dashed border-4 border-devblue p-4">
-        TECH
-      </div>
-    </section>
+    <div className="w-full h-full">
+      <StackCircle />
+    </div>
   )
 }
