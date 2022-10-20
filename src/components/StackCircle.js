@@ -25,7 +25,7 @@ export default function App() {
   }, [])
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="h-full flex justify-center items-center">
       <div
         className="relative w-[200px] h-[200px] m-[calc(100px / 2 + 0px)] animate-spinSlow
                   before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%]
