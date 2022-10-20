@@ -19,7 +19,7 @@ export default function App() {
       let circle = circleElements[i]
       angle += dangle
       circle.style.transform = `rotate(${angle}deg) translate(${
-        ciclegraph.clientWidth / 2
+        ciclegraph.clientWidth / 1.5
       }px) rotate(-${angle}deg)`
     }
   }, [])

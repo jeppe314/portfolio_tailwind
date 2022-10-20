@@ -3,7 +3,7 @@ import { Parallax } from "react-scroll-parallax"
 
 export default function AboutText() {
   return (
-    <div className="px-8 font-bold flex flex-col flex-nowrap md:w-1/2">
+    <div className="px-8 md:w-1/3 font-bold flex flex-col flex-nowrap md:w-1/2">
       <h3 className="text-xl py-4 origin-left w-full max-w-full md:text-4xl">Who am I</h3>
       <p className="md:text-2xl">
         I am a fairly level headed bloke who and an aspiring frontend developer currently working as
