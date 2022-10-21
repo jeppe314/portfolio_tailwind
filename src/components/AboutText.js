@@ -3,12 +3,14 @@ import { Parallax } from "react-scroll-parallax"
 
 export default function AboutText() {
   return (
-    <div>
-      <h3 className="text-xl tracking-widest">Who am I?</h3>
-      <p className="">
-        I am a fairly level headed bloke who and an aspiring frontend developer currently working as
-        a p.e. teacher. I’m a go getter and a trend setter. I’m more or less perfect. Lorem ipsum
-        dolor sit amet and some more just keep going.
+    <div className="flex flex-col justify-center h-full gap-5 font-openSans">
+      <h3 className="text-xl tracking-widest lg:text-3xl">Who am I?</h3>
+      <p className="lg:text-2xl ">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       </p>
     </div>
   )
