@@ -1,18 +1,13 @@
 import React from "react"
 import Typist from "react-typist"
 import "./Typist.css"
-import { useInView } from "react-intersection-observer"
 
 export default function JesperObject() {
-  const { ref, inView, entry } = useInView({
-    threshold: 0.5,
-    triggerOnce: true,
-  })
   return (
-    <div className="m-8 p-8 text-[2vmax] lg:text-[1.5vmax] min-h-[280px] lg:min-h-[310px] text-white bg-gray-800 shadow-2xl rounded-md">
+    <div className=" text-[2vmax] lg:text-[1.5vmax]">
       <p>
         <Typist avgTypingDelay={50} className="h-full">
-          <Typist.Delay ms={1000} />
+          <Typist.Delay ms={2000} />
           <span className="text-devblue">const </span>
           devlepoer =
           <Typist.Backspace count={11} delay={500} />
